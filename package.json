@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start":"concurrently \"cd trackingAPI && dotnet run\" \"cd my-app && npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
